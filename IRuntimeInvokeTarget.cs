@@ -4,10 +4,9 @@ using System;
 using System.Dynamic;
 using System.Threading.Tasks;
 
-namespace A2v10.Runtime.Interfaces
+namespace A2v10.Runtime.Interfaces;
+public interface IRuntimeInvokeTarget
 {
-	public interface IRuntimeInvokeTarget
-	{
-		Task<ExpandoObject> InvokeAsync(String method, ExpandoObject parameters);
-	}
+	Task<ExpandoObject> InvokeAsync(String method, ExpandoObject? parameters);
 }
+
