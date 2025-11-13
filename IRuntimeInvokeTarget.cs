@@ -1,4 +1,4 @@
-﻿// Copyright © 2021-2023 Oleksandr Kukhtin. All rights reserved.
+﻿// Copyright © 2021-2025 Oleksandr Kukhtin. All rights reserved.
 
 using System;
 using System.Dynamic;
